@@ -8,7 +8,7 @@ require("turbolinks").start()
 require("@rails/activestorage").start()
 require("channels")
 
-import Vue from 'vue'
+import Vue from 'vue/dist/vue.esm'
 import App from '../components/app.vue'
 
 document.addEventListener('DOMContentLoaded', () => {
